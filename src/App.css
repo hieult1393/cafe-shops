@@ -1,0 +1,149 @@
+
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.shop-list {
+    padding: 20px;
+}
+
+.btn {
+    margin: 3px;
+    width: auto;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background: red;
+    color: white;
+}
+
+.btn-dark {
+    background: black;
+    color: white;
+}
+
+.btn-success {
+    background: green;
+    color: white;
+}
+
+.btn-primary {
+    background: blue;
+    color: white;
+}
+
+.form-input {
+    width: auto;
+    height: 24px;
+    padding: 2px 5px;
+    font-size: 14px;
+}
+
+.button-group {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.routes-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.routes-list li {
+    padding: 15px;
+
+}
+
+.routes-list li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.routes-list li.active a {
+    color: blue;
+    font-weight: bold;
+}
+
+.shops {
+    list-style: none;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.shops li {
+    width: 320px;
+    margin: 5px;
+}
+
+.shop-image {
+    width: calc(100% + 30px);
+    height: 160px;
+    margin: -15px -15px 15px -15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.shop-image-sm {
+    width: 120px;
+    height: 80px;
+}
+
+.card {
+    padding: 15px;
+    border: 1px solid #55555540;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #00000030;
+}
+
+h3 {
+    margin: 0 0 3px 0;
+    color: mediumseagreen;
+}
+
+p {
+    font-size: 12px;
+    margin: 3px 0;
+}
+
+.status-open {
+    font-size: 16px;
+    font-weight: bold;
+    color: limegreen;
+}
+
+.status-closed {
+    font-size: 16px;
+    font-weight: bold;
+    color: indianred;
+}
